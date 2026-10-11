@@ -1,0 +1,7 @@
+Use your built-in image generation tool (do not write code to draw any image). Generate these 5 separate images, one tool call each. Each: square 1024x1024, one centered icon filling about 75% of the canvas, PURE BLACK #000000 background, flat crisp UI icon, no text, no extra elements. Match the BOLD look of the icons in the attached stats.png / card.png / cta.png.
+1. trophy.png - trophy cup line icon: cup with two side handles, stem and a base plate; BOLD single stroke, stroke width about 10% of the canvas, rounded joins, solid warm gold #F5C76A.
+2. globe.png - globe line icon: circle outline, one vertical meridian ellipse, two horizontal latitude curves; BOLD stroke about 9% of canvas, solid warm gold #F5C76A.
+3. star.png - 5-point star outline icon, BOLD stroke about 9% of canvas, slightly rounded joins, solid warm gold #F5C76A.
+4. arrow.png - "arrow right" icon (→): horizontal line with an open chevron head on the right; compact proportions (total width about 70% of canvas, chevron height about 55% of canvas), BOLD stroke about 10% of canvas, rounded caps, pure WHITE #FFFFFF.
+5. globe-glow.png - glowing golden wireframe globe (circle, meridian ellipse, two latitude curves), BOLD bright lines (stroke about 8% of canvas) in light gold #FFD98A with a strong warm golden glow around the lines, like the icon in card.png.
+Save as ./trophy.png ./globe.png ./star.png ./arrow.png ./globe-glow.png in the current directory (copy each from where the tool saved it). Do not create other files.

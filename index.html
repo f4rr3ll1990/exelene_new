@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exelena Football Academy</title>
+  <meta name="description" content="World-class training, modern methods and global opportunities for the next generation of football talent.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/bg.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/img/player/f18.webp" type="image/webp">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <a class="logo" href="#" aria-label="Exelena Football Academy — home">
+        <img class="logo__icon" src="assets/img/logo.webp" alt="" width="155" height="192">
+        <span class="logo__text">
+          <span class="logo__name">EXELENA</span>
+          <span class="logo__sub">FOOTBALL ACADEMY</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a class="nav__link is-active" href="#">Home</a>
+        <a class="nav__link" href="#">Academy</a>
+        <a class="nav__link" href="#">Programs</a>
+        <a class="nav__link" href="#">Success Stories</a>
+        <a class="nav__link" href="#">Contact</a>
+      </nav>
+
+      <a class="btn-outline" href="#">
+        <span>Join Academy</span>
+        <i class="icon icon--arrow" aria-hidden="true"></i>
+      </a>
+
+      <button class="burger" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/img/bg.webp" alt="" width="1591" height="989">
+      </div>
+
+      <div class="hero__player" aria-hidden="true">
+        <canvas class="player" width="1440" height="1211"></canvas>
+      </div>
+
+      <svg class="hero__frame" viewBox="0 0 190 260" aria-hidden="true">
+        <defs>
+          <linearGradient id="frameThin" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#f6c25f"/>
+            <stop offset=".75" stop-color="#c58f35"/>
+            <stop offset="1" stop-color="#c58f35" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="frameThick" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#ffd27a"/>
+            <stop offset=".6" stop-color="#e3a646"/>
+            <stop offset="1" stop-color="#b27a2a" stop-opacity=".6"/>
+          </linearGradient>
+          <filter id="frameGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="2.2" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <g filter="url(#frameGlow)" fill="none" stroke-linecap="square">
+          <path d="M41 24.5 H140 L184 70" stroke="url(#frameThin)" stroke-width="1.4"/>
+          <path d="M3.5 143 V54 L33.5 24.5" stroke="url(#frameThick)" stroke-width="4"/>
+        </g>
+      </svg>
+
+      <div class="hero__content">
+        <p class="hero__tagline">TALENT HAS NO BORDERS</p>
+        <h1 class="hero__title">
+          <span class="hero__title-l1">EXELENA</span>
+          <span class="hero__title-l2">FOOTBALL</span>
+          <span class="hero__title-l3">ACADEMY</span>
+        </h1>
+        <p class="hero__text">World-class training, modern methods and global opportunities for the next generation of football talent.</p>
+
+        <div class="hero__actions">
+          <a class="btn-gold" href="#">
+            <span>Join Academy</span>
+            <i class="icon icon--arrow" aria-hidden="true"></i>
+          </a>
+          <a class="watch" href="#">
+            <span class="watch__btn"><img src="assets/img/icons/play.webp" alt="" width="88" height="96"></span>
+            <span class="watch__text">
+              <span class="watch__title">Watch Video</span>
+              <span class="watch__time">2:14</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="stats">
+          <svg class="stats__border" viewBox="0 0 563 173" preserveAspectRatio="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="statsStroke" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#d9a24a"/>
+                <stop offset=".45" stop-color="#8d6526"/>
+                <stop offset=".8" stop-color="#e2ad55"/>
+                <stop offset="1" stop-color="#f4c56a"/>
+              </linearGradient>
+            </defs>
+            <polygon points="18.5,0.5 544.5,0.5 562.5,18.5 562.5,154.5 544.5,172.5 18.5,172.5 0.5,154.5 0.5,18.5" fill="none" stroke="url(#statsStroke)" stroke-width="1.3" vector-effect="non-scaling-stroke"/>
+          </svg>
+          <ul class="stats__list">
+          <li class="stats__item">
+            <img class="stats__icon stats__icon--users" src="assets/img/icons/users.webp" alt="" width="96" height="79">
+            <b class="stats__num">500+</b>
+            <span class="stats__label">Young Talents</span>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon stats__icon--trophy" src="assets/img/icons/trophy.webp" alt="" width="96" height="90">
+            <b class="stats__num">20+</b>
+            <span class="stats__label">Partner Clubs</span>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon stats__icon--globe" src="assets/img/icons/globe.webp" alt="" width="96" height="95">
+            <b class="stats__num">15+</b>
+            <span class="stats__label">Countries</span>
+          </li>
+          <li class="stats__item">
+            <img class="stats__icon stats__icon--star" src="assets/img/icons/star.webp" alt="" width="96" height="89">
+            <b class="stats__num">95%</b>
+            <span class="stats__label">Player<br>Progression</span>
+          </li>
+          </ul>
+        </div>
+      </div>
+
+      <aside class="card">
+        <svg class="card__border" viewBox="0 0 265 128" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="cardStroke" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#e9b45a"/>
+              <stop offset=".5" stop-color="#9c7130"/>
+              <stop offset="1" stop-color="#f0bf62"/>
+            </linearGradient>
+          </defs>
+          <polygon points="12.5,0.5 252.5,0.5 264.5,12.5 264.5,115.5 252.5,127.5 12.5,127.5 0.5,115.5 0.5,12.5" fill="none" stroke="url(#cardStroke)" stroke-width="1.3" vector-effect="non-scaling-stroke"/>
+        </svg>
+        <span class="card__icon"><img src="assets/img/icons/globe-glow.webp" alt="" width="128" height="127"></span>
+        <div class="card__body">
+          <h2 class="card__title">GLOBAL<br>OPPORTUNITIES</h2>
+          <p class="card__text">Train. Compete. Grow<br>Worldwide.</p>
+        </div>
+      </aside>
+
+      <a class="scroll" href="#">
+        <span class="scroll__dot"></span>
+        <span class="scroll__text">SCROLL TO EXPLORE</span>
+        <span class="scroll__line"></span>
+      </a>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

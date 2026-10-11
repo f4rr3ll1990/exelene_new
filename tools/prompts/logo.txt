@@ -1,0 +1,4 @@
+Use your built-in image generation tool (do not write code to draw it).
+Attached logo.png shows a brand logo: a golden shield emblem with a stylized geometric "EF"/"Y"-like monogram cut into it (on the left), followed by text. I need ONLY the shield emblem (no text).
+Generate a square image 1024x1024 of exactly this shield emblem, centered, filling about 80% of the canvas, flat-vector style with a smooth gold gradient (light #F6D58E top-left to deeper #C8913A bottom-right), crisp edges, same shape/cutouts as the reference, on a PURE BLACK #000000 background, no glow, no shadow, no text.
+Save as ./logo.png in the current directory (copy it from where the tool saved it). Do not create other files.

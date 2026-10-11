@@ -1,0 +1,5 @@
+numpy
+pillow
+imageio-ffmpeg   # bundled ffmpeg for frame extraction
+rembg[cpu]       # isnet-general-use segmentation
+playwright       # tools/compare.py (uses the installed Google Chrome channel)
